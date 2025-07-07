@@ -406,11 +406,11 @@ dotnet run`}</code></pre>
                 <li>Check the console for connection logs</li>
                 <li>You should see:
                   <ul>
-                    <li>"✅ Connected to PrintBridge server"</li>
-                    <li>"🖨️ Printers discovered: [printer list]"</li>
+                    <li>&quot;✅ Connected to PrintBridge server&quot;</li>
+                    <li>&quot;🖨️ Printers discovered: [printer list]&quot;</li>
                   </ul>
                 </li>
-                <li>The connection status should show "Connected"</li>
+                <li>The connection status should show &quot;Connected&quot;</li>
                 <li>Available printers should be displayed</li>
               </ol>
             </li>

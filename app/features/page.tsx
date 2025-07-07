@@ -71,7 +71,7 @@ export default function Features() {
                   Zentra supports a wide range of USB-connected thermal label printers — no special hardware required. As long as your printer is installed with a system driver, Zentra will detect it automatically and deliver pixel-perfect prints every time.
                 </div>
                 <div className="supported-text small">
-                  Whether you're printing 2-inch prep labels or large PPDS labels, Zentra gets the size right — no matter the brand.
+                  Whether you&apos;re printing 2-inch prep labels or large PPDS labels, Zentra gets the size right — no matter the brand.
                 </div>
               </div>
             </div>
@@ -200,7 +200,7 @@ export default function Features() {
               <div className="speed-bar" />
               <div className="speed-grid">
                 <div className="speed-desc">
-                  Zentra was built with one mission: get your labels printed — instantly, accurately, and without hassle. Whether you're in retail, manufacturing, food service, or logistics, Zentra is the label printing tool that just works.
+                  Zentra was built with one mission: get your labels printed — instantly, accurately, and without hassle. Whether you&apos;re in retail, manufacturing, food service, or logistics, Zentra is the label printing tool that just works.
                 </div>
                 <ul className="speed-list">
                   <li><span className="check">✓</span> Instant PNG-to-label rendering</li>
