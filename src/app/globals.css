@@ -1,26 +1,143 @@
-@import "tailwindcss";
+/* Zentra Design System - Google Bug Hunters Inspired */
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Color Palette */
+  --bg-primary: #202124;
+  --bg-secondary: #1a1a1a;
+  --bg-tertiary: #2d2d2d;
+  --bg-hover: #333333;
+  --text-primary: #ffffff;
+  --text-secondary: #e8eaed;
+  --text-muted: #9aa0a6;
+  --text-disabled: #5f6368;
+  --google-blue: #4285f4;
+  --google-blue-hover: #3367d6;
+  --google-green: #34a853;
+  --google-red: #ea4335;
+  --google-yellow: #fbbc04;
+  --border-color: #3c4043;
+  --border-subtle: #202124;
+  --card-bg: #191919;
+
+  /* Typography */
+  --font-family: 'Google Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 96px;
+  --font-h1: 60px;
+  --font-h2: 48px;
+  --font-h3: 34px;
+  --font-h4: 24px;
+  --font-body-large: 20px;
+  --font-body: 16px;
+  --font-small: 14px;
+  --font-caption: 12px;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* Layout & Spacing */
+  --container-max: 1200px;
+  --container-padding: 24px;
+  --grid-columns: 12;
+  --grid-gap: 24px;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 96px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: var(--bg-primary) !important;
+  color: var(--text-primary);
+  font-family: var(--font-family);
+  font-size: var(--font-body);
+  font-weight: var(--weight-regular);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@media (prefers-color-scheme: dark) {
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--google-blue);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: var(--google-blue-hover);
+}
+
+img, svg {
+  max-width: 100%;
+  display: block;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: var(--bg-tertiary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--bg-hover);
+  border-radius: var(--radius-md);
+}
+
+@media (max-width: 768px) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --font-display: 48px;
+    --font-h1: 36px;
+    --font-h2: 28px;
+    --font-h3: 20px;
+    --font-h4: 16px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  :root {
+    --font-display: 72px;
+    --font-h1: 48px;
+    --font-h2: 36px;
+    --font-h3: 24px;
+    --font-h4: 18px;
+  }
+}
+
+@media (min-width: 1025px) {
+  :root {
+    --font-display: 96px;
+    --font-h1: 60px;
+    --font-h2: 48px;
+    --font-h3: 34px;
+    --font-h4: 24px;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-family);
+  min-height: 100vh;
 }
