@@ -1,5 +1,5 @@
 'use client'
-import SectionLabel from "../components/SectionLabel";
+import SectionLabel from "../../components/SectionLabel";
 import React, { useState } from "react";
 
 export default function Documentation() {

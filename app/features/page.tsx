@@ -1,5 +1,5 @@
 import React from "react";
-import SectionLabel from "../components/SectionLabel";
+import SectionLabel from "../../components/SectionLabel";
 
 
 export default function Features() {
