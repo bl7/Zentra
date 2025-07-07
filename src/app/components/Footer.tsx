@@ -16,13 +16,13 @@ export default function Footer() {
     }}>
       <span style={{ margin: '0 16px', color: 'var(--text-muted)' }}>Zentra</span>
       <span style={{ margin: '0 8px', color: 'var(--text-muted)' }}>|</span>
-      <Link href="/legal/privacy" style={{ margin: '0 8px', color: 'var(--text-muted)', textDecoration: 'none' }}>Privacy</Link>
+      <Link href="/" style={{ margin: '0 8px', color: 'var(--text-muted)', textDecoration: 'none' }}>Privacy</Link>
       <span style={{ margin: '0 8px', color: 'var(--text-muted)' }}>|</span>
-      <Link href="/legal/terms" style={{ margin: '0 8px', color: 'var(--text-muted)', textDecoration: 'none' }}>Terms</Link>
+      <Link href="/" style={{ margin: '0 8px', color: 'var(--text-muted)', textDecoration: 'none' }}>Terms</Link>
       <span style={{ margin: '0 8px', color: 'var(--text-muted)' }}>|</span>
-      <Link href="/about" style={{ margin: '0 8px', color: 'var(--text-muted)', textDecoration: 'none' }}>About</Link>
+      <Link href="/" style={{ margin: '0 8px', color: 'var(--text-muted)', textDecoration: 'none' }}>About</Link>
       <span style={{ margin: '0 8px', color: 'var(--text-muted)' }}>|</span>
-      <Link href="/support" style={{ margin: '0 8px', color: 'var(--text-muted)', textDecoration: 'none' }}>Help</Link>
+      <Link href="/" style={{ margin: '0 8px', color: 'var(--text-muted)', textDecoration: 'none' }}>Help</Link>
     </footer>
   );
 } 

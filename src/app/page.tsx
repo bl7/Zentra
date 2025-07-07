@@ -45,7 +45,7 @@ export default function Home() {
                   Zentra PrinterBridge enables silent, automated printing from your web applications to any connected printer using a secure WebSocket API.<br /><br />
                   Zentra is available for licensed customers. Please sign up or contact sales for access.
                 </div>
-                <Link href="/support" style={{ border: '1.5px solid #e8eaed', color: '#e8eaed', background: 'transparent', borderRadius: '2px', padding: '14px 0', width: '33%', minWidth: '160px', maxWidth: '200px', textAlign: 'center', fontSize: '16px', fontWeight: 600, textDecoration: 'none', transition: 'background 0.2s, color 0.2s, border 0.2s', display: 'block', fontFamily: 'var(--font-family)', letterSpacing: '1px', marginTop: '8px', alignSelf: 'flex-start' }}>Request Access</Link>
+                <Link href="/" style={{ border: '1.5px solid #e8eaed', color: '#e8eaed', background: 'transparent', borderRadius: '2px', padding: '14px 0', width: '33%', minWidth: '160px', maxWidth: '200px', textAlign: 'center', fontSize: '16px', fontWeight: 600, textDecoration: 'none', transition: 'background 0.2s, color 0.2s, border 0.2s', display: 'block', fontFamily: 'var(--font-family)', letterSpacing: '1px', marginTop: '8px', alignSelf: 'flex-start' }}>Request Access</Link>
               </div>
             </div>
           </div>
