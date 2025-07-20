@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import { ReactNode } from "react";
 
 export const metadata: Metadata = {
-  title: "Zentra",
-  description: "Pixel-perfect, modern, product-level UI/UX.",
+  title: "PrintBridge by Zentra",
+  description: "Pixel-perfect, modern, product-level UI/UX for PrintBridge by Zentra.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

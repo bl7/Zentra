@@ -31,7 +31,7 @@ export default function Header() {
         display: 'flex',
         alignItems: 'center',
       }}>
-        Zentra
+        PrintBridge by Zentra
       </Link>
       {/* Navigation */}
       <nav style={{ display: 'flex', alignItems: 'center', gap: '8px', flex: 1 }}>

@@ -14,7 +14,7 @@ export default function Footer() {
       color: 'var(--text-muted)',
       width: '100%',
     }}>
-      <span style={{ margin: '0 16px', color: 'var(--text-muted)' }}>Zentra</span>
+      <span style={{ margin: '0 16px', color: 'var(--text-muted)' }}>PrintBridge by Zentra</span>
       <span style={{ margin: '0 8px', color: 'var(--text-muted)' }}>|</span>
       <Link href="/" style={{ margin: '0 8px', color: 'var(--text-muted)', textDecoration: 'none' }}>Privacy</Link>
       <span style={{ margin: '0 8px', color: 'var(--text-muted)' }}>|</span>

@@ -31,9 +31,9 @@ export default function Documentation() {
     <main>
       <section style={{ textAlign: 'center', marginBottom: '2rem' }}>
         <ApiSvg />
-        <h1>Documentation</h1>
+        <h1>PrintBridge Documentation</h1>
         <p style={{ fontSize: '1.1rem', maxWidth: 500, margin: '0 auto' }}>
-          Integration guides and API reference for Zentra.
+          Integration guides and API reference for PrintBridge by Zentra.
         </p>
       </section>
       <nav
@@ -105,7 +105,7 @@ export default function Documentation() {
             }}
           >
             <h2 style={{ fontSize: isMobile ? '1.1rem' : '1.25rem' }}>Windows WebSocket Integration</h2>
-            <p>Follow these steps to connect to Zentra API using WebSockets on Windows:</p>
+            <p>Follow these steps to connect to PrintBridge API using WebSockets on Windows:</p>
             <ol style={{ paddingLeft: '1.2em' }}>
               <li>Install <code>websocat</code> or use your preferred WebSocket client.</li>
               <li>Open Command Prompt and run:<br />

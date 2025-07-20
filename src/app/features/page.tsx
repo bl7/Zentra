@@ -18,9 +18,9 @@ export default function Features() {
   return (
     <main>
       <section style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
-        <h1>Features</h1>
+        <h1>PrintBridge Features</h1>
         <p style={{ fontSize: '1.15rem', maxWidth: 500, margin: '0 auto' }}>
-          Zentra offers a suite of modern, pixel-perfect UI/UX features for your Next.js projects.
+          PrintBridge by Zentra offers a suite of modern, pixel-perfect UI/UX features for your Next.js projects.
         </p>
       </section>
       <section
