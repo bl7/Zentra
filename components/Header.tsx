@@ -31,6 +31,7 @@ export default function Header() {
         display: 'flex',
         alignItems: 'center',
       }}>
+        <img src="/printbridge-white.png" alt="PrintBridge by Zentra logo" style={{ height: 32, marginRight: 12 }} />
         PrintBridge by Zentra
       </Link>
       {/* Navigation */}
