@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Zentra",
-  description: "The silent label printing soution",
+  title: "PrintBridge",
+  description: "The silent label printing solution",
 };
 
 export default function RootLayout({
