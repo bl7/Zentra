@@ -12,10 +12,10 @@ export default function Features() {
           <div className="hero-left">
             <div className="hero-label">
               <SectionLabel text="FEATURES" />
-              <div className="hero-title">Zentra Features</div>
+              <div className="hero-title">PrintBridge Features</div>
             </div>
             <div className="hero-subheading">
-              InstaLabel’s print bridge is a cross-platform local server that powers reliable, fast, and accurate label printing directly from your browser — no drivers, no dialogs, no delays.
+              PrintBridge by Zentra is a local software solution for effortless, secure, and instant label printing from any web application. No browser dialogs, no cloud dependency, no hassle.
             </div>
           </div>
           {/* Right: Hero SVG */}
@@ -50,31 +50,16 @@ export default function Features() {
         <div className="container features-stack">
           {/* Supported Printers */}
           <div>
-            <SectionLabel text="SUPPORTED PRINTERS" />
-            <div className="supported-printers-row">
-              <div className="supported-card">
-                <div className="supported-title">Tested and working with:</div>
-                <ul className="supported-list">
-                  <li>Zebra (ZD220, ZD420, etc.)</li>
-                  <li>MUNBYN (ITPP941, ITPP129)</li>
-                  <li>DYMO (4XL, LabelWriter series)</li>
-                  <li>Brother QL series</li>
-                  <li>Rollo and more</li>
-                </ul>
-              </div>
-              <div className="supported-desc">
-                <div className="supported-heading">
-                  <span role="img" aria-label="printer">🖨️</span> Works with Virtually All USB Label Printers
-                </div>
-                <div className="supported-text">
-                  Seamless compatibility out of the box.<br /><br />
-                  Zentra supports a wide range of USB-connected thermal label printers — no special hardware required. As long as your printer is installed with a system driver, Zentra will detect it automatically and deliver pixel-perfect prints every time.
-                </div>
-                <div className="supported-text small">
-                  Whether you&apos;re printing 2-inch prep labels or large PPDS labels, Zentra gets the size right — no matter the brand.
-                </div>
-              </div>
-            </div>
+            <SectionLabel text="CORE FEATURES" />
+            <ul className="usecases-list">
+              <li>Native support for Mac and Windows (dedicated software for each)</li>
+              <li>Runs locally—no cloud dependency, works fully offline</li>
+              <li>Effortless integration via WebSocket (just send a PNG from your web app)</li>
+              <li>Chrome recommended for best experience</li>
+              <li>Endorsed/tested printers: Munbyn, Epson</li>
+              <li>Designed for thermal label printers</li>
+              <li>Not tested on non-thermal printers</li>
+            </ul>
           </div>
           {/* Label Types */}
           <div className="label-types">

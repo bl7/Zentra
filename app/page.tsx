@@ -13,16 +13,15 @@ export default function Home() {
           <div className="hero-left">
             <div className="hero-label">
               <SectionLabel text="HOME" />
-              <div className="hero-title">Welcome!</div>
+              <div className="hero-title">Seamless printing, from web to paper. Instantly. Anywhere.</div>
             </div>
             <div className="hero-content-row">
               <div className="hero-divider" />
               <div className="hero-content">
                 <div className="hero-desc">
-                  Zentra PrinterBridge enables silent, automated printing from your web applications to any connected printer using a secure WebSocket API.<br /><br />
-                  Zentra is available for licensed customers. Please sign up or contact sales for access.
+                  PrintBridge by Zentra allows any web application to connect directly to thermal label printers from the browser—no pop-ups, no cloud, no hassle. Just generate a PNG in your web app and send it to PrintBridge via WebSocket for instant, secure, local printing.
                 </div>
-                <Link href="/" className="hero-btn">Request Access</Link>
+                <Link href="/contact" className="hero-btn">Contact us to get started</Link>
               </div>
             </div>
           </div>
@@ -57,13 +56,21 @@ export default function Home() {
       {/* VRPs at Zentra (Card Grid) */}
       <section className="glance-section">
         <div className="container">
-          <SectionLabel text="ZENTRA AT A GLANCE" />
+          <SectionLabel text="INDUSTRY APPLICATIONS" />
           <div className="glance-grid">
             <div>
-              <div className="glance-title">Zentra at a Glance</div>
+              <div className="glance-title">Industries We Serve</div>
               <div className="glance-desc">
-                Zentra provides a secure, silent, and universal print bridge for your business. See the videos on the right for an overview of Zentra’s capabilities and integrations.
+                PrintBridge is trusted across a wide range of industries for reliable, secure, and instant label printing:
               </div>
+              <ul className="usecases-list">
+                <li>E-commerce Fulfillment<div className="usecase-desc">Automate shipping label printing from order management systems.</div></li>
+                <li>Inventory Management<div className="usecase-desc">Print product labels and barcodes from web-based inventory systems.</div></li>
+                <li>Point of Sale<div className="usecase-desc">Silent receipt and label printing from web POS applications.</div></li>
+                <li>Healthcare<div className="usecase-desc">Patient wristbands and medication labels from EMR systems.</div></li>
+                <li>Manufacturing<div className="usecase-desc">Quality control labels and product identification from MES systems.</div></li>
+                <li>Logistics<div className="usecase-desc">Warehouse labels, shipping documents, and tracking information.</div></li>
+              </ul>
             </div>
             <div className="glance-videos">
               {/* Video 1 */}
@@ -194,39 +201,6 @@ export default function Home() {
               <div className="how-step-desc">Zentra processes and prints automatically without user interaction.</div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* USE CASES SECTION */}
-      <section className="usecases-section">
-        <div className="container">
-          <SectionLabel text="INDUSTRY APPLICATIONS" />
-          <ul className="usecases-list">
-            <li>
-              E-commerce Fulfillment
-              <div className="usecase-desc">Automate shipping label printing from order management systems.</div>
-            </li>
-            <li>
-              Inventory Management
-              <div className="usecase-desc">Print product labels and barcodes from web-based inventory systems.</div>
-            </li>
-            <li>
-              Point of Sale
-              <div className="usecase-desc">Silent receipt and label printing from web POS applications.</div>
-            </li>
-            <li>
-              Healthcare
-              <div className="usecase-desc">Patient wristbands and medication labels from EMR systems.</div>
-            </li>
-            <li>
-              Manufacturing
-              <div className="usecase-desc">Quality control labels and product identification from MES systems.</div>
-            </li>
-            <li>
-              Logistics
-              <div className="usecase-desc">Warehouse labels, shipping documents, and tracking information.</div>
-            </li>
-          </ul>
         </div>
       </section>
 

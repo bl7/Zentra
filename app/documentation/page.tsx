@@ -17,7 +17,7 @@ export default function Documentation() {
               <div className="hero-title">Zentra Documentation</div>
             </div>
             <div className="hero-subheading">
-              Everything you need to integrate, deploy, and master Zentra. Explore guides, API docs, and best practices for seamless printing from your web apps.
+              Everything you need to integrate, deploy, and master PrintBridge by Zentra.
             </div>
           </div>
           {/* Right: Hero SVG for Documentation */}
@@ -58,6 +58,20 @@ export default function Documentation() {
           </div>
         </div>
       </section>
+      {/* About PrintBridge - full width info block */}
+      <div className="container" style={{ margin: '0 0 32px 0' }}>
+        <div style={{ background: 'var(--bg-secondary)', borderRadius: '6px', padding: '28px 32px', color: 'var(--text-secondary)', fontSize: 18, maxWidth: 900, margin: '0 auto' }}>
+          <b style={{ fontSize: 20, display: 'block', marginBottom: 10 }}>About PrintBridge:</b>
+          <ul style={{ margin: 0, paddingLeft: 22, lineHeight: 1.7 }}>
+            <li>Local software for direct label printing from any web app—no browser dialogs, no cloud.</li>
+            <li>Runs natively on <b>Mac</b> and <b>Windows</b>; works fully offline.</li>
+            <li>Tested and endorsed for <b>Munbyn</b> and <b>Epson</b> thermal label printers.</li>
+            <li>Designed for developers and businesses needing seamless, secure, and instant label printing.</li>
+            <li>To get access, <a href="/contact" style={{ color: 'var(--google-blue)' }}>contact us</a> (Instalabel subscribers get it free).</li>
+            <li><b>Chrome</b> recommended. Your data stays local.</li>
+          </ul>
+        </div>
+      </div>
 
       {/* SUB-HEADER TABS */}
       <nav className="tabs-nav">

@@ -1,3 +1,5 @@
+import React from "react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -14,7 +16,7 @@ export default function Footer() {
       color: 'var(--text-muted)',
       width: '100%',
     }}>
-      <img src="/printbridge-white.png" alt="PrintBridge by Zentra logo" style={{ height: 28, marginRight: 8, verticalAlign: 'middle' }} />
+      <Image src="/printbridge-white.png" alt="PrintBridge by Zentra logo" height={32} width={32} style={{ marginRight: 8, width: 'auto', height: 32 }} />
       <span style={{ margin: '0 8px', color: 'var(--text-muted)' }}>PrintBridge by Zentra</span>
       <span style={{ margin: '0 8px', color: 'var(--text-muted)' }}>|</span>
       <Link href="/" style={{ margin: '0 8px', color: 'var(--text-muted)', textDecoration: 'none' }}>Privacy</Link>
